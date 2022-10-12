@@ -1,0 +1,160 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 80%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+
+#container{
+    display: flex;
+    height: 100%;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    text-align: center;
+}
+
+.sub-title{
+    color: rgb(240, 13, 119);
+    font-size: 26px;
+}
+
+.descricao{
+    padding-top: 20px;
+    margin: auto;
+    width: 90%;
+    font-size: 20px;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(236, 253, 253);
+    padding: 10px 20px 0px;
+    border: 2px solid rgb(158, 158, 158);
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu ul{
+    list-style: none;
+    color: rgb(36, 36, 133);
+    font-size: 24px;
+}
+.header {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+
+.title{
+    position: relative;
+    margin-top: -170px;
+    font-size: 52px;
+    color: rgb(212, 47, 116);
+}
+
+.banner {
+    width: 100%;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content-contato {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgb(99, 56, 240);
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 25px;
+    padding: 10px 30px;
+    border: 2px solid rgb(50, 102, 245);
+    border-radius: 5px;
+    background-color: black;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.box-1{
+    width: 45%;
+}
+
+.box-2{
+    width: 45%;
+}
+
+
+.boxs{
+    display: flex;
+}
+
+.boxs form{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxs input{
+    height: 20px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 2px solid rgb(74, 74, 206);
+
+}
+
+.btn-form{
+    margin-top: 8px;
+    background-color: rgb(24, 3, 51);
+    border: solid 2px rgb(29, 28, 32);
+    border-radius: 5px;
+    padding: 10px 26px;
+    color: white;
+    font-size: 22px;
+}
+
+table{
+    border: solid 2px rgb(170, 170, 170);
+    padding: 10px;
+    font-size: 18px;
+}
+
+table thead{
+    background-color: rgb(49, 49, 250);
+    color: rgb(248, 242, 245);
+}
+table tbody{
+    background-color: rgb(186, 186, 187);
+    color: rgb(15, 13, 14);
+}
